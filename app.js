@@ -44,7 +44,7 @@ function sortearAmigo(){
     if (nombreAmigos == 0){
         alert ('Por favor, ingrese por lo menos dos nombres');
     }else{
-        let randomNumber = Math.floor(Math.random()*nombreAmigos.length)+1;
+        let randomNumber = Math.floor(Math.random()*nombreAmigos.length);
         let nombreSecreto = nombreAmigos[randomNumber];
         let resultado = document.getElementById('resultado');
         resultado.innerHTML=`Su amigo secreto es ${nombreSecreto}`;
