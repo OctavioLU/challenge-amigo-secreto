@@ -12,3 +12,5 @@ El usuario deberá agregar nombres mediante un campo de texto y un botón "Adici
 
 <h2>Estado</h2>
 - Completado.
+<h2>Acceso al proyecto</h2>
+https://octaviolu.github.io/challenge-amigo-secreto/
